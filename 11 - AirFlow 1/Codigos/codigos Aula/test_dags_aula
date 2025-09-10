@@ -1,0 +1,5 @@
+<script>start("/Users/heloamillergrassi/forex_data_pipeline/test_dags/");</script>
+<script>onHasParentDirectory();</script>
+<script>addRow("conftest.py","conftest.py",0,115,"115 B",1734690039,"20/12/2024, 07:20:39");</script>
+<script>addRow("test_dag_validation.py","test_dag_validation.py",0,2853,"2.8 kB",1734690063,"20/12/2024, 07:21:03");</script>
+<script>addRow("test_tst_dag_definition.py","test_tst_dag_definition.py",0,2302,"2.2 kB",1734690641,"20/12/2024, 07:30:41");</script>

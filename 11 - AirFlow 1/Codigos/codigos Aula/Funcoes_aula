@@ -1,0 +1,4 @@
+<script>start("/Users/heloamillergrassi/forex_data_pipeline/Funcoes/");</script>
+<script>onHasParentDirectory();</script>
+<script>addRow("__init__py","__init__py",0,0,"0 B",1734688079,"20/12/2024, 06:47:59");</script>
+<script>addRow("helpers.py","helpers.py",0,163,"163 B",1734688280,"20/12/2024, 06:51:20");</script>
