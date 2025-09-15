@@ -6,17 +6,37 @@ O foco foi **treinar, avaliar e comparar modelos de Deep Learning** para a **det
 
 ---
 
-## 🩺 Contexto
+## 📑 Table of Contents
+
+- [Introduction](#introduction)  
+- [Context](#context)  
+- [Objectives](#objectives)  
+- [Dataset](#dataset)  
+- [Models](#models)  
+- [Results](#results)  
+- [Installation](#installation)  
+- [How to use](#how-to-use)  
+
+---
+
+## Introduction
 
 A pneumonia é uma das principais causas de mortalidade em todo o mundo, afetando milhões de pessoas anualmente e representando um grande desafio para os sistemas de saúde, especialmente em países em desenvolvimento.  
 
 O diagnóstico **precoce e preciso** da doença é essencial para garantir um tratamento adequado e reduzir complicações futuras caso não seja tratado corretamente.  
 
-Com o avanço da **Inteligência Artificial**, foi possível desenvolver **CNNs** capazes de realizar esse trabalho, em muitos casos auxiliando — e até substituindo — o trabalho médico em triagens automatizadas.
+Com o avanço da **Inteligência Artificial**, foi possível desenvolver **CNNs** capazes de realizar esse trabalho, em muitos casos auxiliando — e até substituindo — o trabalho médico em triagens automatizadas.  
 
 ---
 
-## 📌 Objetivos do Projeto
+## Context
+
+Este projeto aplica técnicas de visão computacional para a classificação de imagens de raio-X de tórax.  
+A abordagem combina **modelos criados do zero** com **modelos pré-treinados**, permitindo comparar simplicidade e desempenho.  
+
+---
+
+## Objectives
 
 - Pré-processamento e normalização das imagens.  
 - Construção de uma **CNN simples** feita do zero.  
@@ -25,7 +45,7 @@ Com o avanço da **Inteligência Artificial**, foi possível desenvolver **CNNs*
 
 ---
 
-## 📊 Base de Dados
+## Dataset
 
 Foi utilizada a base pública **Chest X-Ray Images (Pneumonia)**, disponível no Kaggle:  
 👉 [Chest X-Ray Pneumonia Dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
@@ -37,17 +57,17 @@ A base contém imagens já divididas em **treino**, **validação** e **teste**,
 
 ---
 
-## 🏗️ Modelos Implementados
+## Models
 
 - **CNN Baseline**  
-  Rede neural convolucional construída do zero, com camadas de convolução, pooling, batch normalization e dropout.
+  Rede neural convolucional construída do zero, com camadas de convolução, pooling, batch normalization e dropout.  
 
 - **EfficientNetB0**  
-  Arquitetura moderna pré-treinada no *ImageNet*, utilizada via *transfer learning* para acelerar o treinamento e melhorar a generalização.
+  Arquitetura moderna pré-treinada no *ImageNet*, utilizada via *transfer learning* para acelerar o treinamento e melhorar a generalização.  
 
 ---
 
-## 📈 Resultados
+## Results
 
-Os resultados (gráficos de histórico e matrizes de confusão) foram salvos automaticamente na pasta:  
+Os resultados (gráficos de histórico e matrizes de confusão) foram salvos automaticamente na pasta:
 
