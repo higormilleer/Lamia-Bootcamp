@@ -6,20 +6,20 @@ O foco foi **treinar, avaliar e comparar modelos de Deep Learning** para a **det
 
 ---
 
-## 📑 Table of Contents
+## 📑 Sumário
 
-- [Introduction](#introduction)  
-- [Context](#context)  
-- [Objectives](#objectives)  
-- [Dataset](#dataset)  
-- [Models](#models)  
-- [Results](#results)  
-- [Installation](#installation)  
-- [How to use](#how-to-use)  
+- [Introdução](#introdução)  
+- [Contexto](#contexto)  
+- [Objetivos do Projeto](#objetivos-do-projeto)  
+- [Base de Dados](#base-de-dados)  
+- [Modelos Implementados](#modelos-implementados)  
+- [Resultados](#resultados)  
+- [Instalação](#instalação)  
+- [Como Usar](#como-usar)  
 
 ---
 
-## Introduction
+## Introdução
 
 A pneumonia é uma das principais causas de mortalidade em todo o mundo, afetando milhões de pessoas anualmente e representando um grande desafio para os sistemas de saúde, especialmente em países em desenvolvimento.  
 
@@ -29,14 +29,14 @@ Com o avanço da **Inteligência Artificial**, foi possível desenvolver **CNNs*
 
 ---
 
-## Context
+## Contexto
 
 Este projeto aplica técnicas de visão computacional para a classificação de imagens de raio-X de tórax.  
 A abordagem combina **modelos criados do zero** com **modelos pré-treinados**, permitindo comparar simplicidade e desempenho.  
 
 ---
 
-## Objectives
+## Objetivos do Projeto
 
 - Pré-processamento e normalização das imagens.  
 - Construção de uma **CNN simples** feita do zero.  
@@ -45,7 +45,7 @@ A abordagem combina **modelos criados do zero** com **modelos pré-treinados**, 
 
 ---
 
-## Dataset
+## Base de Dados
 
 Foi utilizada a base pública **Chest X-Ray Images (Pneumonia)**, disponível no Kaggle:  
 👉 [Chest X-Ray Pneumonia Dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
@@ -57,7 +57,7 @@ A base contém imagens já divididas em **treino**, **validação** e **teste**,
 
 ---
 
-## Models
+## Modelos Implementados
 
 - **CNN Baseline**  
   Rede neural convolucional construída do zero, com camadas de convolução, pooling, batch normalization e dropout.  
@@ -67,7 +67,7 @@ A base contém imagens já divididas em **treino**, **validação** e **teste**,
 
 ---
 
-## Results
+## Resultados
 
 Os resultados (gráficos de histórico e matrizes de confusão) foram salvos automaticamente na pasta:
 
