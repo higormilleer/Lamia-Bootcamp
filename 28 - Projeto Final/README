@@ -1,39 +1,53 @@
-Projeto Final - Lamia Bootcamp
+# 🫁 Projeto Final - Lamia Bootcamp
 
-Este projeto foi desenvolvido como parte do **Lamia Bootcamp**, tendo como objetivo aplicar os conhecimentos adquiridos durante o curso em um desafio prático de aprendizado de máquina e visão computacional.
-Tendo como objetivo yreinar, avaliar e comparar modelos de Deep Learning para a detecção de pneumonia em radiografias de tórax (Chest X-Ray).  
+Este projeto foi desenvolvido como parte do **Lamia Bootcamp**, tendo como objetivo aplicar os conhecimentos adquiridos durante o curso em um desafio prático de **aprendizado de máquina e visão computacional**.  
 
-A pneumonia é uma das principais causas de mortalidade em todo o mundo, afetando milhões de pessoas anualmente e representando um grande desafio para os sistemas de saúde, especialmente em países em desenvolvimento, 
-e com o diagnóstico precoce e preciso da doença é essencial para garantir um tratamento adequado e reduzir complicações que possa vir futuramente caso não seja tratado de modo correto.
-Com o avanco da IA, conseguimos desenvolver CNNS capazes de realizar este trabalho, em muitos casos, conseguindo substituir o trabalho medico.
-
-O projeto envolveu:
-
-- Pré-processamento e normalização das imagens.
-- Construção de uma CNN simples feita do zero.
-- Implementação e teste de arquiteturas pré-treinadas, o EfficientNetB0.
-- Análise dos resultados por meio de métricas e visualizações.
+O foco foi **treinar, avaliar e comparar modelos de Deep Learning** para a **detecção de pneumonia em radiografias de tórax (Chest X-Ray)**.  
 
 ---
 
-Base de Dados
+## 🩺 Contexto
 
-Foi utilizada a base pública de Chest X-Ray Images (Pneumonia), disponível no Kaggle:  
-[Chest X-Ray Pneumonia Dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
-Com imagens já divididas em treino, validação e teste. Contendo as classes Pneumonia e Normal   
+A pneumonia é uma das principais causas de mortalidade em todo o mundo, afetando milhões de pessoas anualmente e representando um grande desafio para os sistemas de saúde, especialmente em países em desenvolvimento.  
+
+O diagnóstico **precoce e preciso** da doença é essencial para garantir um tratamento adequado e reduzir complicações futuras caso não seja tratado corretamente.  
+
+Com o avanço da **Inteligência Artificial**, foi possível desenvolver **CNNs** capazes de realizar esse trabalho, em muitos casos auxiliando — e até substituindo — o trabalho médico em triagens automatizadas.
 
 ---
 
-Modelos Implementados
+## 📌 Objetivos do Projeto
 
-- CNN Baseline  
+- Pré-processamento e normalização das imagens.  
+- Construção de uma **CNN simples** feita do zero.  
+- Implementação e teste de arquiteturas pré-treinadas (**EfficientNetB0**).  
+- Análise dos resultados por meio de métricas e visualizações.  
+
+---
+
+## 📊 Base de Dados
+
+Foi utilizada a base pública **Chest X-Ray Images (Pneumonia)**, disponível no Kaggle:  
+👉 [Chest X-Ray Pneumonia Dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
+
+A base contém imagens já divididas em **treino**, **validação** e **teste**, com duas classes:
+
+- **Pneumonia** 🫁  
+- **Normal** ✅  
+
+---
+
+## 🏗️ Modelos Implementados
+
+- **CNN Baseline**  
   Rede neural convolucional construída do zero, com camadas de convolução, pooling, batch normalization e dropout.
 
-- EfficientNetB0 
-  Arquitetura moderna pré-treinada no ImageNet, utilizada via transfer learning para acelerar o treinamento e melhorar a generalização.
+- **EfficientNetB0**  
+  Arquitetura moderna pré-treinada no *ImageNet*, utilizada via *transfer learning* para acelerar o treinamento e melhorar a generalização.
 
 ---
 
-Os resultados (gráficos e matrizes) foram salvos automaticamente na pasta `Resultado/`.
+## 📈 Resultados
 
+Os resultados (gráficos de histórico e matrizes de confusão) foram salvos automaticamente na pasta:  
 
