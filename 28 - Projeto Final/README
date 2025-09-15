@@ -24,7 +24,7 @@ Com imagens já divididas em treino, validação e teste. Contendo as classes Pn
 
 ---
 
-## Modelos Implementados
+Modelos Implementados
 
 - CNN Baseline  
   Rede neural convolucional construída do zero, com camadas de convolução, pooling, batch normalization e dropout.
